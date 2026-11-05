@@ -1,0 +1,17 @@
+{
+  "name": "paisa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Paisa - a local-first personal finance tracker (vanilla JS, Chart.js, IndexedDB)",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "chart.js": "^4.6.1",
+    "esbuild": "^0.28.2",
+    "fake-indexeddb": "^6.2.7",
+    "jsdom": "^30.1.3"
+  }
+}
